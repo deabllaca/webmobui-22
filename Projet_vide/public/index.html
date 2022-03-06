@@ -1,35 +1,91 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>WebMobUI</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
-    <link rel="stylesheet" href="main.css" />
+<head>
+  <meta charset="utf-8" />
+  <title>WebMobUI</title>
 
-    <script src="main.js"></script>
-  </head>
-  <body>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
+  <link rel="stylesheet" href="main.css" />
 
-    <header>
-      <h1>Logo</h1>
-      <span class="material-icons">face</span>
-    </header>
+  <script src="main.js"></script>
+</head>
 
-    <main>
-      <section>
-        <h2>Bienvenue</h2>
+<body>
 
-      </section>
-    </main>
+  <header>
+    <h1>Logo</h1>
+    <span class="material-icons">search</span>
+  </header>
 
-    <footer>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Player</a>
-        <a href="#">Songs</a>
-        <a href="#">Playlist</a>
-      </nav>
-    </footer>
-  </body>
+  <main>
+    <section>
+      <h2>Bienvenue sur Spotlified</h2>
+      <h3>Playlists</h3>
+      <div class="playlist-covers" id="playlist-buttons">
+        <button href="#" class="padding-button" id="chillectro" type="button">
+          Chillectro
+        </button>
+        <button href="#" class="padding-button" id="motivation" type="button">
+          Motivation
+        </button>
+        <button href="#" class="padding-button" id="pardy" type="button">
+          Pardy pardy
+        </button>
+        <button href="#" class="padding-button" id="shake" type="button">
+          Shake ton booty
+        </button>
+        <!-- <playlist-cover 
+        data-id="1" 
+        data-song-count="32" 
+        data-thumbnail-url="https://i1.sndcdn.com/artworks-000347286918-b9kgxj-t500x500.jpg">
+          Chillectro
+        </playlist-cover>
+        <playlist-cover 
+        data-id="2" 
+        data-song-count="14" 
+        data-thumbnail-url="https://img.passeportsante.net/1000x526/2019-09-12/i91510-.jpeg">
+          Motivation
+        </playlist-cover>
+        <playlist-cover 
+        data-id="3" 
+        data-song-count="21" 
+        data-thumbnail-url="https://img.passeportsante.net/1000x526/2019-09-12/i91510-.jpeg">
+          Pardy pardy
+        </playlist-cover>
+        <playlist-cover 
+        data-id="4" 
+        data-song-count="4" 
+        data-thumbnail-url="https://img.passeportsante.net/1000x526/2019-09-12/i91510-.jpeg">
+          Shake ton booty
+        </playlist-cover> -->
+      </div>
+    </section>
+    <section>
+      <div class="all-songs" id="vers-les-chansons">
+        <button href="#" class="padding-button" type="button">
+          Vers les chansons
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="#">
+        <span class="material-icons">home</span>
+      </a>
+      <a href="#">
+        <span class="material-icons">smart_display</span>
+      </a>
+      <a href="#">
+        <span class="material-icons">library_music</span>
+      </a>
+      <a href="#">
+        <span class="material-icons">playlist_play</span>
+      </a>
+    </nav>
+  </footer>
+</body>
+
 </html>
