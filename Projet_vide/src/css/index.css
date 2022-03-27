@@ -1,51 +1,10 @@
+/* Packages */
 @import 'normalize.css';
-@import 'nav.css';
+
+/* Project */
 @import 'variables.css';
-@import 'button.css';
-@import 'titles.css';
-
-html, body {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* flex-grow: 1; */
-}
-
-header {
-  width: 100%;
-  background: darkgrey;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-main {
-  background: white;
-  width: 100%;
-  flex-grow: 1;
-
-}
-
-
-footer {
-  width: 100%;
-  background: #00ffff;
-}
-
-nav {
-  width: 100%;
-  background: darkgrey;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.material-icons{
-  font-size: 4rem;
-}
+@import 'structure.css';
+@import 'typography.css';
+@import 'buttons.css';
+@import 'lists.css';
+@import 'player.css';

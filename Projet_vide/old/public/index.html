@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>WebMobUI</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
-    <link rel="stylesheet" href="main.css" />
+<head>
+  <meta charset="utf-8" />
+  <title>Sptlified from Dea</title>
 
-    <script src="main.js"></script>
-  </head>
-  <body>
+  <!-- Bloquer le viewport - ici, c'est une app! Pas de zoom. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 
-    <header>
-      <h1>Logo</h1>
-      <span class="material-icons">face</span>
-    </header>
+  <!-- Fonts google pour les icônes et la police par défaut -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" />
 
-    <main>
-      <section>
-        <h2>Bienvenue</h2>
 
-      </section>
-    </main>
+  <!-- Stylesheet principale (main.css, car c'est le nom de sortie utilisé par Webpack) -->
+  <link rel="stylesheet" href="main.css" />
 
-    <footer>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Player</a>
-        <a href="#">Songs</a>
-        <a href="#">Playlist</a>
-      </nav>
-    </footer>
-  </body>
+  <!-- Javascript principal (main.js, car c'est le nom de sortie utilisé par Webpack) -->
+  <!-- ...à quoi sert le defer ? :) -->
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <!-- ajouter la classe "animated" à #logo pour animer l'icône -->
+    <div id="logo" class="animated">
+      <span class="material-icons">graphic_eq</span>
+      Spotlified
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bienvenue</h2>
+
+    </section>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Player</a>
+      <a href="#">Songs</a>
+      <a href="#">Playlist</a>
+    </nav>
+  </footer>
+</body>
+
 </html>
